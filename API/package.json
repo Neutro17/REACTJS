@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "## Agradecimentos",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maransatto/rest-api-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maransatto/rest-api-node-js/issues"
+  },
+  "homepage": "https://github.com/Maransatto/rest-api-node-js#readme",
+
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
+
+
