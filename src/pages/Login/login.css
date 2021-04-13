@@ -1,0 +1,139 @@
+.Login {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Login-Logo img{
+
+    width: 300px;
+    height: 200px;
+}
+
+.Login-Bellow{
+
+    background-color: #29292E ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.Login-Bellow h1{
+  font-family: 'Roboto Slab';
+  font-size: 50px;
+}
+
+.Login-Bellow h4{
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.Login-InputEmail {
+   display: flex;
+   align-items: center;
+   color: gray;
+   background-color: #1A1A1D;
+   border-radius: 3px;
+   padding: 3px;
+   width: 98%;
+   height: 50px;
+   border-radius: 5px;
+   margin: 10px;
+}
+
+.Login-InputEmail svg{
+
+    margin-left: 10px;
+    font-size: 25px;
+    border: 0;
+}
+
+.Login-InputEmail input{
+
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*  Senha   */
+
+.Login-InputSenha {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 3px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+ }
+
+.Login-InputSenha svg{
+
+    margin-left: 10px;
+    font-size: 25px;
+    border: 0;
+    
+}
+
+.Login-InputSenha input {
+
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+    
+}
+
+.Login-Bellow button {
+
+    background: #121214;
+    width: 100%;
+    font-weight: 800;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+    outline-width: 0;
+}
+
+.Login-Bellow button:hover {
+
+    background-color: #202024 ;
+    color: #121214;
+    cursor: pointer;
+
+     
+}
+
+.login-eye {
+
+
+    
+}
